@@ -146,7 +146,7 @@ func (m *AllocationDescription) GetPtr() uint64 {
 }
 
 func init() {
-	proto.RegisterType((*AllocationDescription)(nil), "tensorflow.AllocationDescription")
+	//proto.RegisterType((*AllocationDescription)(nil), "tensorflow.AllocationDescription")
 }
 
 func init() {
